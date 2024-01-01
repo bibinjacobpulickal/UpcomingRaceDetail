@@ -7,21 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFA254C32B229393001CC8CC /* EntainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA254C22B229393001CC8CC /* EntainTests.swift */; };
+		EFA254ED2B23D7AC001CC8CC /* CategorySelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA254EC2B23D7AC001CC8CC /* CategorySelectorView.swift */; };
+		EFA254EF2B23D7EA001CC8CC /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA254EE2B23D7EA001CC8CC /* TimerView.swift */; };
+		EFB2CFD72B25DF4B00FC409E /* EntainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2CFD62B25DF4B00FC409E /* EntainUITests.swift */; };
+		EFB2CFD92B25DF4B00FC409E /* EntainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2CFD82B25DF4B00FC409E /* EntainUITestsLaunchTests.swift */; };
+		EFB2CFE02B25E35600FC409E /* ContentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2CFDF2B25E35600FC409E /* ContentViewTests.swift */; };
+		EFB824902B2426DD003F8F94 /* ContentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB8248F2B2426DD003F8F94 /* ContentViewModelTests.swift */; };
 		EFBA27E42B21D54B0076CC45 /* EntainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA27E32B21D54B0076CC45 /* EntainApp.swift */; };
 		EFBA27E62B21D54B0076CC45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA27E52B21D54B0076CC45 /* ContentView.swift */; };
 		EFBA27E82B21D5510076CC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBA27E72B21D5510076CC45 /* Assets.xcassets */; };
 		EFBA27EB2B21D5510076CC45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBA27EA2B21D5510076CC45 /* Preview Assets.xcassets */; };
+		EFBA27F22B21DBDF0076CC45 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA27F12B21DBDF0076CC45 /* ContentModel.swift */; };
+		EFBA27F42B2254890076CC45 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA27F32B2254890076CC45 /* ContentViewModel.swift */; };
+		EFD3C5102B41032B00BB3340 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3C50F2B41032B00BB3340 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EFA254C42B229393001CC8CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBA27D82B21D54A0076CC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBA27DF2B21D54A0076CC45;
+			remoteInfo = Entain;
+		};
+		EFB2CFDA2B25DF4B00FC409E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBA27D82B21D54A0076CC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBA27DF2B21D54A0076CC45;
+			remoteInfo = Entain;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		EFA254C02B229392001CC8CC /* EntainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA254C22B229393001CC8CC /* EntainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainTests.swift; sourceTree = "<group>"; };
+		EFA254EC2B23D7AC001CC8CC /* CategorySelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectorView.swift; sourceTree = "<group>"; };
+		EFA254EE2B23D7EA001CC8CC /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		EFB2CFD42B25DF4A00FC409E /* EntainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB2CFD62B25DF4B00FC409E /* EntainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainUITests.swift; sourceTree = "<group>"; };
+		EFB2CFD82B25DF4B00FC409E /* EntainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFB2CFDF2B25E35600FC409E /* ContentViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTests.swift; sourceTree = "<group>"; };
+		EFB8248F2B2426DD003F8F94 /* ContentViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModelTests.swift; sourceTree = "<group>"; };
 		EFBA27E02B21D54A0076CC45 /* Entain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Entain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBA27E32B21D54B0076CC45 /* EntainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainApp.swift; sourceTree = "<group>"; };
 		EFBA27E52B21D54B0076CC45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFBA27E72B21D5510076CC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFBA27EA2B21D5510076CC45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFBA27F12B21DBDF0076CC45 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		EFBA27F32B2254890076CC45 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		EFD3C50F2B41032B00BB3340 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EFA254BD2B229392001CC8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB2CFD12B25DF4A00FC409E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFBA27DD2B21D54A0076CC45 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +85,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EFA254C12B229392001CC8CC /* EntainTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFA254C22B229393001CC8CC /* EntainTests.swift */,
+				EFB8248F2B2426DD003F8F94 /* ContentViewModelTests.swift */,
+			);
+			path = EntainTests;
+			sourceTree = "<group>";
+		};
+		EFA254E92B23D737001CC8CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA27F12B21DBDF0076CC45 /* ContentModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EFA254EA2B23D742001CC8CC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA27F32B2254890076CC45 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EFA254EB2B23D751001CC8CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA27E52B21D54B0076CC45 /* ContentView.swift */,
+				EFA254EE2B23D7EA001CC8CC /* TimerView.swift */,
+				EFA254EC2B23D7AC001CC8CC /* CategorySelectorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFB2CFD52B25DF4B00FC409E /* EntainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2CFD62B25DF4B00FC409E /* EntainUITests.swift */,
+				EFB2CFD82B25DF4B00FC409E /* EntainUITestsLaunchTests.swift */,
+				EFB2CFDF2B25E35600FC409E /* ContentViewTests.swift */,
+			);
+			path = EntainUITests;
+			sourceTree = "<group>";
+		};
 		EFBA27D72B21D54A0076CC45 = {
 			isa = PBXGroup;
 			children = (
 				EFBA27E22B21D54A0076CC45 /* Entain */,
+				EFA254C12B229392001CC8CC /* EntainTests */,
+				EFB2CFD52B25DF4B00FC409E /* EntainUITests */,
 				EFBA27E12B21D54A0076CC45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				EFBA27E02B21D54A0076CC45 /* Entain.app */,
+				EFA254C02B229392001CC8CC /* EntainTests.xctest */,
+				EFB2CFD42B25DF4A00FC409E /* EntainUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +154,10 @@
 			isa = PBXGroup;
 			children = (
 				EFBA27E32B21D54B0076CC45 /* EntainApp.swift */,
-				EFBA27E52B21D54B0076CC45 /* ContentView.swift */,
+				EFA254E92B23D737001CC8CC /* Models */,
+				EFA254EA2B23D742001CC8CC /* ViewModels */,
+				EFA254EB2B23D751001CC8CC /* Views */,
+				EFD3C50E2B41031000BB3340 /* Helpers */,
 				EFBA27E72B21D5510076CC45 /* Assets.xcassets */,
 				EFBA27E92B21D5510076CC45 /* Preview Content */,
 			);
@@ -67,9 +172,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EFD3C50E2B41031000BB3340 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3C50F2B41032B00BB3340 /* NetworkManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EFA254BF2B229392001CC8CC /* EntainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA254C82B229393001CC8CC /* Build configuration list for PBXNativeTarget "EntainTests" */;
+			buildPhases = (
+				EFA254BC2B229392001CC8CC /* Sources */,
+				EFA254BD2B229392001CC8CC /* Frameworks */,
+				EFA254BE2B229392001CC8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA254C52B229393001CC8CC /* PBXTargetDependency */,
+			);
+			name = EntainTests;
+			productName = EntainTests;
+			productReference = EFA254C02B229392001CC8CC /* EntainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB2CFD32B25DF4A00FC409E /* EntainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB2CFDE2B25DF4B00FC409E /* Build configuration list for PBXNativeTarget "EntainUITests" */;
+			buildPhases = (
+				EFB2CFD02B25DF4A00FC409E /* Sources */,
+				EFB2CFD12B25DF4A00FC409E /* Frameworks */,
+				EFB2CFD22B25DF4A00FC409E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB2CFDB2B25DF4B00FC409E /* PBXTargetDependency */,
+			);
+			name = EntainUITests;
+			productName = EntainUITests;
+			productReference = EFB2CFD42B25DF4A00FC409E /* EntainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EFBA27DF2B21D54A0076CC45 /* Entain */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFBA27EE2B21D5510076CC45 /* Build configuration list for PBXNativeTarget "Entain" */;
@@ -97,6 +246,14 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					EFA254BF2B229392001CC8CC = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = EFBA27DF2B21D54A0076CC45;
+					};
+					EFB2CFD32B25DF4A00FC409E = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = EFBA27DF2B21D54A0076CC45;
+					};
 					EFBA27DF2B21D54A0076CC45 = {
 						CreatedOnToolsVersion = 14.0;
 					};
@@ -116,11 +273,27 @@
 			projectRoot = "";
 			targets = (
 				EFBA27DF2B21D54A0076CC45 /* Entain */,
+				EFA254BF2B229392001CC8CC /* EntainTests */,
+				EFB2CFD32B25DF4A00FC409E /* EntainUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EFA254BE2B229392001CC8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB2CFD22B25DF4A00FC409E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFBA27DE2B21D54A0076CC45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +306,121 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EFA254BC2B229392001CC8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB824902B2426DD003F8F94 /* ContentViewModelTests.swift in Sources */,
+				EFA254C32B229393001CC8CC /* EntainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB2CFD02B25DF4A00FC409E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB2CFE02B25E35600FC409E /* ContentViewTests.swift in Sources */,
+				EFB2CFD72B25DF4B00FC409E /* EntainUITests.swift in Sources */,
+				EFB2CFD92B25DF4B00FC409E /* EntainUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFBA27DC2B21D54A0076CC45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA254EF2B23D7EA001CC8CC /* TimerView.swift in Sources */,
+				EFBA27F42B2254890076CC45 /* ContentViewModel.swift in Sources */,
+				EFBA27F22B21DBDF0076CC45 /* ContentModel.swift in Sources */,
+				EFD3C5102B41032B00BB3340 /* NetworkManager.swift in Sources */,
 				EFBA27E62B21D54B0076CC45 /* ContentView.swift in Sources */,
+				EFA254ED2B23D7AC001CC8CC /* CategorySelectorView.swift in Sources */,
 				EFBA27E42B21D54B0076CC45 /* EntainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		EFA254C52B229393001CC8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBA27DF2B21D54A0076CC45 /* Entain */;
+			targetProxy = EFA254C42B229393001CC8CC /* PBXContainerItemProxy */;
+		};
+		EFB2CFDB2B25DF4B00FC409E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBA27DF2B21D54A0076CC45 /* Entain */;
+			targetProxy = EFB2CFDA2B25DF4B00FC409E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		EFA254C62B229393001CC8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.EntainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Entain.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Entain";
+			};
+			name = Debug;
+		};
+		EFA254C72B229393001CC8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.EntainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Entain.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Entain";
+			};
+			name = Release;
+		};
+		EFB2CFDC2B25DF4B00FC409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.EntainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Entain;
+			};
+			name = Debug;
+		};
+		EFB2CFDD2B25DF4B00FC409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.EntainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Entain;
+			};
+			name = Release;
+		};
 		EFBA27EC2B21D5510076CC45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,6 +594,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EFA254C82B229393001CC8CC /* Build configuration list for PBXNativeTarget "EntainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA254C62B229393001CC8CC /* Debug */,
+				EFA254C72B229393001CC8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB2CFDE2B25DF4B00FC409E /* Build configuration list for PBXNativeTarget "EntainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB2CFDC2B25DF4B00FC409E /* Debug */,
+				EFB2CFDD2B25DF4B00FC409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EFBA27DB2B21D54A0076CC45 /* Build configuration list for PBXProject "Entain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

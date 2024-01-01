@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+/*
+App starts here.
+*/
 @main
 struct EntainApp: App {
     var body: some Scene {
